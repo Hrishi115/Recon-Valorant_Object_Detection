@@ -146,7 +146,10 @@ The system returns processed media with detected objects highlighted using bound
 * Output is returned as an annotated image or processed video
 
 Example:
-
+**Input**
+![alt text](<backend/misc/input.jpg>)
+**Output**
+![alt text](backend/misc/output.jpg)
 > An image/video with bounding boxes around detected objects like "teammate", "enemy", etc.
 
 ---
