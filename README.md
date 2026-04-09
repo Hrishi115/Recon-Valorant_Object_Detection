@@ -1,10 +1,10 @@
-# 🎯 Recon: an AI-Based Visual Scene Understanding System
+# Recon: an AI-Based Visual Scene Understanding System
 
 An intelligent system that analyzes images and videos to detect objects and generate meaningful scene descriptions using deep learning and modern web technologies.
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This project combines **computer vision** and **AI-driven summarization** to transform raw visual data into structured, human-readable insights.
 
@@ -12,18 +12,18 @@ This project combines **computer vision** and **AI-driven summarization** to tra
 
 ---
 
-## 🧠 Features
+## Features
 
-* 🔍 Object detection using YOLO
-* 🖼️ Image analysis with structured outputs
-* 🎥 Video processing with frame-based detection
-* 🧾 Scene summarization using AI logic
-* 🌐 Full-stack web interface (React + FastAPI)
-* ⚡ Modular and scalable architecture
+* Object detection using YOLO
+* Image analysis with structured outputs
+* Video processing with frame-based detection
+* Scene summarization using AI logic
+* Full-stack web interface (React + FastAPI)
+* Modular and scalable architecture
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 The system follows a clean, modular pipeline:
 
@@ -54,7 +54,7 @@ Input → Processing → Detection → Intelligence → Output → Delivery
 
 ---
 
-## 🧩 Tech Stack
+## Tech Stack
 
 * **Frontend:** React, JavaScript
 * **Backend:** FastAPI, Python
@@ -63,7 +63,7 @@ Input → Processing → Detection → Intelligence → Output → Delivery
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 ```
 project-root/
@@ -81,7 +81,7 @@ project-root/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repository
 
@@ -103,7 +103,7 @@ pip install -r requirements.txt
 
 ### 3. Download Model Weights
 
-⚠️ Model weights are not included due to size constraints.
+**Model weights are not included due to size constraints.**
 
 Download link will soon be providen.
 
@@ -135,9 +135,9 @@ npm start
 
 ---
 
-## 📊 Example Output
+## Example Output
 
-### 🖼️ Image / 🎥 Video Output
+### Image / Video Output
 
 The system returns processed media with detected objects highlighted using bounding boxes.
 
@@ -145,13 +145,13 @@ The system returns processed media with detected objects highlighted using bound
 * Confidence scores are displayed
 * Output is returned as an annotated image or processed video
 
-👉 Example:
+Example:
 
 > An image/video with bounding boxes around detected objects like "teammate", "enemy", etc.
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 * Text-based scene summarization from detected objects
 * Real-time video streaming support
@@ -161,7 +161,7 @@ The system returns processed media with detected objects highlighted using bound
 
 ---
 
-## 🧠 Key Engineering Highlights
+## Key Engineering Highlights
 
 * Modular architecture (easy to extend/replace components)
 * Clear separation of concerns
@@ -171,19 +171,19 @@ The system returns processed media with detected objects highlighted using bound
 
 ---
 
-## 📌 Notes
+## Notes
 
 * Model weights are excluded for repository efficiency and reproducibility.
 * The system is designed to be easily extendable with different models.
 
 ---
 
-## 🙌 Author
+## Author
 
 **Hrishikesh Shendage**
 
 ---
 
-## ⭐ If you found this useful
+## If you found this useful
 
-Give it a star ⭐ and feel free to fork!
+Give it a star and feel free to fork!
