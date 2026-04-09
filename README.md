@@ -105,17 +105,7 @@ pip install -r requirements.txt
 
 ⚠️ Model weights are not included due to size constraints.
 
-Download them from:
-
-```
-[ADD YOUR LINK HERE]
-```
-
-Place the file in:
-
-```
-backend/models/
-```
+Download link will soon be providen.
 
 ---
 
@@ -147,16 +137,27 @@ npm start
 
 ## 📊 Example Output
 
-```json
-[
-  {"label": "person", "confidence": 0.92},
-  {"label": "dog", "confidence": 0.88}
-]
-```
+### 🖼️ Image / 🎥 Video Output
 
-Generated summary:
+The system returns processed media with detected objects highlighted using bounding boxes.
 
-> "A person is interacting with a dog in the scene."
+* Objects are labeled with class names
+* Confidence scores are displayed
+* Output is returned as an annotated image or processed video
+
+👉 Example:
+
+> An image/video with bounding boxes around detected objects like "teammate", "enemy", etc.
+
+---
+
+## 🔮 Future Improvements
+
+* Text-based scene summarization from detected objects
+* Real-time video streaming support
+* Advanced scene understanding using LLMs
+* User authentication & history tracking
+* Deployment on cloud (AWS/GCP)
 
 ---
 
@@ -167,15 +168,6 @@ Generated summary:
 * Defined data flow between modules
 * Scalable design for future real-time processing
 * Clean API design for integration
-
----
-
-## 🔮 Future Improvements
-
-* Real-time video streaming support
-* Advanced scene understanding using LLMs
-* User authentication & history tracking
-* Deployment on cloud (AWS/GCP)
 
 ---
 
